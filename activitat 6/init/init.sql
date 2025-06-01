@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS autenticacio;
+
+USE autenticacio;
+
+CREATE TABLE IF NOT EXISTS usuaris (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    contrasenya VARCHAR(255) NOT NULL
+);
